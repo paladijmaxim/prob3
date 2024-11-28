@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url("fonts\Rubik-VariableFont_wght.woff") format('woff'),
+    url("fonts\Rubik-VariableFont_wght.woff2") format('woff2');
+}
+
+:root {
+    font-size: 62.5%;
+    --back-color: #2D2D2D;
+    --white-color: #FFFF;
+}
+
+.body {
+    background-color: var(--back-color);
+}
+
+footer {
+    border-bottom: 1px rgba(87, 85, 85, 1) solid;
+}
+
+.contanier__footer {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.footer--logo {
+
+}
+
+.button_header {
+    text-decoration: none;
+}
+
+.footer_menu_image {
+
+}
+
+.contanier__main {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.section_main_title {
+    color: var(--white-color);
+    font-size: 3rem;
+    font-family: 'Rubik';
+    font-weight: 900;
+}
+
+.section_main__text {
+    color: var(--white-color);
+    font-family:'Rubik';
+    font-size: 1.6rem;
+}
+
+.span_main_text {
+    color: #00D5E4;
+    font-weight: 1000;
+}
+
+.main__image {
+    height: 290px;
+}
+
+.list {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 27px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.list-1p {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.text-top-image {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    position: absolute;
+    transform: translate(100%, 50%);
+    z-index: 1;
+    width: 40px;
+}
+
+.list-2p {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.contanier_list-2p_image {
+    height: 112px;
+}
+
+.list_image--1p-1 {
+    position: absolute;
+    transform: translate(10px, 10px);
+}
+
+.list_image--1p-2 {
+
+}
+
+.list_image--2p-1 {
+    position: absolute;
+    transform: translate(10px, 10px);
+}
+
+.list_image--2p-2 {
+
+}
+
+.list_text--1p {
+    color: var(--white-color);
+    font-family:'Rubik';
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.list_text--2p {
+    color: var(--white-color);
+    font-family:'Rubik';
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+}
